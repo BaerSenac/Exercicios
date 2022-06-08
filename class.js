@@ -1,0 +1,20 @@
+//Class
+class Microfone {
+    constructor(color = "black") {
+        this.color = color;
+        this.isOn = true;
+    }
+
+    toggleOnOff() {
+        if ((this, this.isOn)) {
+            console.log("desligar");
+        } else {
+            console.log("ligar");
+        }
+        this.isOn = !this.isOn;
+    }
+}
+
+const microfone = new Microfone("white");
+microfone.toggleOnOff();
+microfone.toggleOnOff();
