@@ -1,6 +1,9 @@
-body {
+*, html {
   padding: 0;
   margin: 0;
+}
+
+body {
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
@@ -12,27 +15,47 @@ body {
   position: fixed;
   width: 15vw;
   height: 100vh;
-  top: 0;
 }
 .header .navbar-logo {
   color: blue;
   background-color: orange;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
 }
 .header .navbar-content {
   background-color: red;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
 }
 .header .navbar {
   background-color: green;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .header .navbar-list {
   list-style: none;
 }
 .header .navbar-link {
   text-decoration: none;
+  margin: 20px;
+  color: white;
 }
 
-.main-content {
-  background-color: antiquewhite;
-  width: 100%;
+.content-page {
+  text-align: right;
+}
+.content-page .main-content {
+  width: 80%;
   height: 100vh;
+  background-color: green;
+}
+.content-page .content-page {
+  padding: 10px 80px;
+  background-color: red;
+  text-align: justify;
 }/*# sourceMappingURL=style.css.map */
